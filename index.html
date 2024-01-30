@@ -108,6 +108,37 @@
 		</style>
 	</head>
 	<body class="c21 doc-content" style="background-image: url('image2.png'); background-repeat: no-repeat; background-size: contain; background-position: left;">
+
+
+<button id="zoom-in">+</button>
+
+  <script>
+    // JavaScript code for zoom-in  buttons goes here
+  const zoomInButton = document.getElementById("zoom-in");
+  zoomInButton.addEventListener("click", () => {
+    document.body.style.zoom = "1.2"; // Adjust zoom level as needed
+  });
+
+  </script>
+
+
+<button id="zoom-out">-</button>
+
+		
+  <script>
+    // JavaScript code for zoom-out  buttons goes here
+
+		  const zoomOutButton = document.getElementById("zoom-out");
+  zoomOutButton.addEventListener("click", () => {
+    document.body.style.zoom = "1"; // Reset to default zoom
+  });
+
+
+		
+  </script>
+
+		
+		
 		<div>
 			<p class="c4">
 			 	<span style="overflow: hidden; display: none; margin: 0.00px 0.00px; border: 0.00px solid #000000; transform: rotate(0.00rad) translateZ(0px); -webkit-transform: rotate(0.00rad) translateZ(0px); width: 762.24px; height: 1010.88px;">
@@ -239,32 +270,6 @@
 			<span class="c8"></span></p>
 
 
-<button id="zoom-in">+</button>
-
-  <script>
-    // JavaScript code for zoom-in  buttons goes here
-  const zoomInButton = document.getElementById("zoom-in");
-  zoomInButton.addEventListener("click", () => {
-    document.body.style.zoom = "1.2"; // Adjust zoom level as needed
-  });
-
-  </script>
-
-
-<button id="zoom-out">-</button>
-
-		
-  <script>
-    // JavaScript code for zoom-out  buttons goes here
-
-		  const zoomOutButton = document.getElementById("zoom-out");
-  zoomOutButton.addEventListener("click", () => {
-    document.body.style.zoom = "1"; // Reset to default zoom
-  });
-
-
-		
-  </script>
 
 		
 
